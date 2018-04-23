@@ -4,6 +4,28 @@ Simple map application with Angular and Openlayers
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+## Directory structure like
+
+- app.module.ts
+- app.component.ts
+- modules/
+  - module1/
+    - components/
+    - pages/
+    - services/
+    - module1.module.ts
+    - module1.routes.ts
+  - module2
+    - components/
+    - pages/
+    - module2.service.ts
+    - module2.module.ts
+    - module2.routes.ts
+- shared
+  - components/
+  - mocks/
+  - models/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
